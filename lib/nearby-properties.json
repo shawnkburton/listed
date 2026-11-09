@@ -1,0 +1,3431 @@
+[
+  {
+    "id": "mls-1040347",
+    "address": "342 Foul Bay Rd",
+    "area": "Fairfield",
+    "price": 1014900.0,
+    "beds": 3.0,
+    "baths": 2.0,
+    "sqft": 1727.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Near beach",
+      "Renovation"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639169590645530000/reb3/highres/7/1040347_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639169590645600000/reb3/highres/7/1040347_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639169590645600000/reb3/highres/7/1040347_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639169590603100000/reb3/highres/7/1040347_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639169590578830000/reb3/highres/7/1040347_5.jpg"
+    ],
+    "description": "A 1952 home near Gonzales Beach on a large lot. The listing identifies this as a court foreclosure and describes renovation or redevelopment potential; confirm the sale process and permitted uses with the listing representative.",
+    "year": 1952.0,
+    "lot": 9842.0,
+    "daysListed": 106.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29900737",
+      "mls": "1040347",
+      "url": "https://www.realtor.ca/real-estate/29900737/342-foul-bay-rd-victoria-fairfield-east",
+      "brokerage": "RE/MAX Generation",
+      "title": "Freehold",
+      "lot": "9842 sqft",
+      "tax": 7000.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining nook",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Hobby room",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / RE/MAX Generation"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVRUw==",
+      "address": "342 FOUL BAY RD VICTORIA V8S 4G7",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 1498000.0,
+      "land": 1311000.0,
+      "buildings": 187000.0,
+      "previousTotal": 1444000.0,
+      "built": 1952.0,
+      "beds": 3.0,
+      "baths": 2.0,
+      "lot": "74 x 133 Ft",
+      "firstFloor": 1435.0,
+      "secondFloor": null,
+      "finishedBasement": 585.0,
+      "pid": "006-704-204",
+      "sales": [
+        {
+          "date": "May 17, 2023",
+          "price": 1453000.0
+        }
+      ],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4133852,
+      "longitude": -123.3278828,
+      "distanceMeters": 233,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1015576",
+    "address": "2086 Marne St",
+    "area": "Oak Bay",
+    "price": 4750000.0,
+    "beds": 4.0,
+    "baths": 3.0,
+    "sqft": 2495.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Garden"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS638949681100400000/reb3/highres/6/1015576_1.jpg",
+      "https://cdn.realtor.ca/listings/TS638949681100400000/reb3/highres/6/1015576_2.jpg",
+      "https://cdn.realtor.ca/listings/TS638949681100400000/reb3/highres/6/1015576_3.jpg",
+      "https://cdn.realtor.ca/listings/TS638949681100400000/reb3/highres/6/1015576_4.jpg",
+      "https://cdn.realtor.ca/listings/TS638949681100400000/reb3/highres/6/1015576_5.jpg"
+    ],
+    "description": "A west-facing Gonzales Bay home with direct beach access, a large kitchen, and several outdoor seating areas. The four-bedroom layout includes an ocean-facing primary suite. The listing highlights a hot tub and proximity to local shops.",
+    "year": 2011.0,
+    "lot": 6098.0,
+    "daysListed": 361.0,
+    "source": "realtor",
+    "listing": {
+      "id": "28939506",
+      "mls": "1015576",
+      "url": "https://www.realtor.ca/real-estate/28939506/2086-marne-st-oak-bay-gonzales",
+      "brokerage": "Real Broker B.C. Ltd.",
+      "title": "Freehold",
+      "lot": "6098 sqft",
+      "tax": 18445.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Wine Cellar",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Pantry",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Media",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Real Broker B.C. Ltd."
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUTVIRw==",
+      "address": "2086 MARNE ST VICTORIA V8S 4J8",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 3687000.0,
+      "land": 2503000.0,
+      "buildings": 1184000.0,
+      "previousTotal": 3420000.0,
+      "built": 2010.0,
+      "beds": 3.0,
+      "baths": 3.0,
+      "lot": ".137 Acres",
+      "firstFloor": 1285.0,
+      "secondFloor": 1271.0,
+      "finishedBasement": null,
+      "pid": "026-100-401",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4087205,
+      "longitude": -123.3245855,
+      "distanceMeters": 356,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1049032",
+    "address": "238 Richmond Ave",
+    "area": "Fairfield",
+    "price": 1899000.0,
+    "beds": 3.0,
+    "baths": 4.0,
+    "sqft": 2839.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Suite",
+      "Near beach"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639251695527900000/reb3/highres/2/1049032_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639251695559600000/reb3/highres/2/1049032_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639251695527870000/reb3/highres/2/1049032_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639251695527970000/reb3/highres/2/1049032_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639251695527870000/reb3/highres/2/1049032_5.jpg"
+    ],
+    "description": "An updated home close to Gonzales Beach with an open kitchen, garden-facing living spaces, and an upstairs primary suite with ocean views. A separate one-bedroom suite has its own entrance and laundry.",
+    "year": 2001.0,
+    "lot": 2874.0,
+    "daysListed": 18.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30254006",
+      "mls": "1049032",
+      "url": "https://www.realtor.ca/real-estate/30254006/238-richmond-ave-victoria-fairfield-east",
+      "brokerage": "RE/MAX Camosun",
+      "title": "Freehold",
+      "lot": "2874 sqft",
+      "tax": 11123.52,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Porch",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Den",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Third level",
+          "name": "Loft",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Living room",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / RE/MAX Camosun"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVKUA==",
+      "address": "238 RICHMOND AVE VICTORIA V8S 3X8",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 1961000.0,
+      "land": 956000.0,
+      "buildings": 1005000.0,
+      "previousTotal": 1914000.0,
+      "built": 2001.0,
+      "beds": 3.0,
+      "baths": 4.0,
+      "lot": "2874 Sq Ft",
+      "firstFloor": 826.0,
+      "secondFloor": 826.0,
+      "finishedBasement": 826.0,
+      "pid": "025-027-034",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4120408,
+      "longitude": -123.3310747,
+      "distanceMeters": 392,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1037539",
+    "address": "1779 Lillian Rd",
+    "area": "Fairfield",
+    "price": 1399900.0,
+    "beds": 4.0,
+    "baths": 5.0,
+    "sqft": 2434.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Suite",
+      "Garden"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639192871353700000/reb3/highres/9/1037539_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639192871354800000/reb3/highres/9/1037539_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639192871313900000/reb3/highres/9/1037539_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639192871321600000/reb3/highres/9/1037539_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639192871316300000/reb3/highres/9/1037539_5.jpg"
+    ],
+    "description": "A renovated 1940s home on a corner lot near Gonzales Beach. The property includes a detached two-level garden suite and updated building systems. The listing\u2019s bedroom and bathroom totals cover the combined accommodation.",
+    "year": 1946.0,
+    "lot": 5424.0,
+    "daysListed": 88.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29976858",
+      "mls": "1037539",
+      "url": "https://www.realtor.ca/real-estate/29976858/1779-lillian-rd-victoria-fairfield-east",
+      "brokerage": "Pemberton Holmes Ltd. - Oak Bay",
+      "title": "Freehold",
+      "lot": "5424 sqft",
+      "tax": 8676.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Porch",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Auxiliary Building",
+          "name": "Bathroom",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Pemberton Holmes Ltd. - Oak Bay"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVKNQ==",
+      "address": "1779 LILLIAN RD VICTORIA V8S 1L3",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 1733000.0,
+      "land": 1014000.0,
+      "buildings": 719000.0,
+      "previousTotal": 1660000.0,
+      "built": 1946.0,
+      "beds": 3.0,
+      "baths": 2.0,
+      "lot": "48 x 113 Ft",
+      "firstFloor": 1148.0,
+      "secondFloor": null,
+      "finishedBasement": 670.0,
+      "pid": "006-618-553",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4129951,
+      "longitude": -123.3310074,
+      "distanceMeters": 408,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1036981",
+    "address": "330 Irving Rd",
+    "area": "Fairfield",
+    "price": 2990000.0,
+    "beds": 4.0,
+    "baths": 5.0,
+    "sqft": 3341.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Suite",
+      "Garden"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639156779991470000/reb3/highres/1/1036981_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639156779991470000/reb3/highres/1/1036981_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639156779991470000/reb3/highres/1/1036981_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639156779991470000/reb3/highres/1/1036981_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639156779991470000/reb3/highres/1/1036981_5.jpg"
+    ],
+    "description": "A contemporary Fairfield residence with courtyard and outdoor entertaining areas, a media room, and a separate one-bedroom suite. The listing describes Mediterranean-inspired updates; its construction year differs from BC Assessment.",
+    "year": 2022.0,
+    "lot": 9904.0,
+    "daysListed": 121.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29827921",
+      "mls": "1036981",
+      "url": "https://www.realtor.ca/real-estate/29827921/330-irving-rd-victoria-fairfield-east",
+      "brokerage": "Pemberton Holmes Ltd.",
+      "title": "Freehold",
+      "lot": "9904 sqft",
+      "tax": 13064.43,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": "23 ft x 14 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": "14 ft x 23 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Other",
+          "size": "9 ft x 7 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Laundry room",
+          "size": "10 ft x 7 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": "11 ft x 15 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": "16 ft x 14 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": "5-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": "8 ft x 14 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": "3-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": "16 ft x 10 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": "2-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": "6 ft x 6 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": "11 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Media",
+          "size": "19 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Office",
+          "size": "10 ft x 14 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": "3-Piece"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": "11 ft x 12 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": "4-Piece"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": "9 ft x 11 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": "16 ft x 12 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": "25 ft x 25 ft"
+        },
+        {
+          "level": "Other",
+          "name": "Storage",
+          "size": "5 ft x 3 ft"
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Pemberton Holmes Ltd."
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/RDAwMDBZNzZTRA==",
+      "address": "330 IRVING RD VICTORIA V8S 4A2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2308000.0,
+      "land": 1088000.0,
+      "buildings": 1220000.0,
+      "previousTotal": 2252000.0,
+      "built": 2019.0,
+      "beds": 4.0,
+      "baths": 5.0,
+      "lot": "9904 Sq Ft",
+      "firstFloor": 1846.0,
+      "secondFloor": null,
+      "finishedBasement": 1118.0,
+      "pid": "029-808-031",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4144928,
+      "longitude": -123.3296009,
+      "distanceMeters": 410,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1040389",
+    "address": "2114 Marne St",
+    "area": "Oak Bay",
+    "price": 3795000.0,
+    "beds": 6.0,
+    "baths": 4.0,
+    "sqft": 4201.0,
+    "style": "Coastal",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Suite"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639174756599200000/reb3/highres/9/1040389_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639174756587230000/reb3/highres/9/1040389_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639174756579500000/reb3/highres/9/1040389_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639174756584870000/reb3/highres/9/1040389_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639174756584270000/reb3/highres/9/1040389_5.jpg"
+    ],
+    "description": "A southwest-facing oceanfront home with a walk-on shoreline, decks, patios, and a waterfront boathouse. Three levels include a lower-floor kitchen and separate entrance. The listing describes extensive updates and a private sandy cove.",
+    "year": 1992.0,
+    "lot": 11021.0,
+    "daysListed": 101.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29926527",
+      "mls": "1040389",
+      "url": "https://www.realtor.ca/real-estate/29926527/2114-marne-st-oak-bay-gonzales",
+      "brokerage": "The Agency",
+      "title": "Freehold",
+      "lot": "11021 sqft",
+      "tax": 18502.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": "21'2 x 10'9"
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": "17'3 x 15'9"
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": "14'7 x 21'8"
+        },
+        {
+          "level": "Main level",
+          "name": "Sitting room",
+          "size": "17'6 x 12'2"
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": "2-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Laundry room",
+          "size": "11' x 10'"
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": "13'10 x 25'8"
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": "15'6 x 14'2"
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": "15'7 x 11'6"
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": "17 ft x 13'3"
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": "19'8 x 13'3"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "21 ft x 13'7"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "13'1 x 11'1"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "13'2 x 17'2"
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": "4-Piece"
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": "5-Piece"
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": "17'5 x 12'6"
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": "14'10 x 13'3"
+        },
+        {
+          "level": "Lower level",
+          "name": "Gym",
+          "size": "16'4 x 14 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Recreation room",
+          "size": "13'7 x 16 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": "21'8 x 12 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": "16'4 x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bonus Room",
+          "size": "16' x 11'"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": "16'2 x 11'7"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": "3-Piece"
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": "14 ft x 7'10"
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUFIOA==",
+      "address": "2114 MARNE ST VICTORIA V8S 4J9",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 3708000.0,
+      "land": 2755000.0,
+      "buildings": 953000.0,
+      "previousTotal": 3428000.0,
+      "built": 1992.0,
+      "beds": 4.0,
+      "baths": 4.0,
+      "lot": ".253 Acres",
+      "firstFloor": 1689.0,
+      "secondFloor": 1425.0,
+      "finishedBasement": 1520.0,
+      "pid": "017-490-669",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4081862,
+      "longitude": -123.3248585,
+      "distanceMeters": 410,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1047458",
+    "address": "100 King George Terr",
+    "area": "Oak Bay",
+    "price": 3549900.0,
+    "beds": 5.0,
+    "baths": 3.0,
+    "sqft": 3583.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Garden"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639228422360930000/reb3/highres/8/1047458_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639228422360930000/reb3/highres/8/1047458_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639228422360930000/reb3/highres/8/1047458_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639228422360930000/reb3/highres/8/1047458_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639228422360930000/reb3/highres/8/1047458_5.jpg"
+    ],
+    "description": "A renovated 1947 Harling Point home overlooking the ocean and mountains. The updated kitchen and primary suite lead to outdoor living areas and a sunny garden. Walbran Park sits behind the property.",
+    "year": 1947.0,
+    "lot": 7811.0,
+    "daysListed": 38.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30180641",
+      "mls": "1047458",
+      "url": "https://www.realtor.ca/real-estate/30180641/100-king-george-terr-oak-bay-gonzales",
+      "brokerage": "Oakwyn Realty Ltd.",
+      "title": "Freehold",
+      "lot": "7811 sqft",
+      "tax": 11826.74,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Hobby room",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Oakwyn Realty Ltd."
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUE3Nw==",
+      "address": "100 KING GEORGE TERR VICTORIA V8S 2J9",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2159000.0,
+      "land": 1676000.0,
+      "buildings": 483000.0,
+      "previousTotal": 2092000.0,
+      "built": 1947.0,
+      "beds": 4.0,
+      "baths": 3.0,
+      "lot": "7811 Sq Ft",
+      "firstFloor": 1371.0,
+      "secondFloor": 915.0,
+      "finishedBasement": 350.0,
+      "pid": "001-769-448",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4100847,
+      "longitude": -123.3207586,
+      "distanceMeters": 418,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1040540",
+    "address": "157 Robertson St",
+    "area": "Fairfield",
+    "price": 1999900.0,
+    "beds": 3.0,
+    "baths": 3.0,
+    "sqft": 2683.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Renovation"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639198828913170000/reb3/highres/0/1040540_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639198828906770000/reb3/highres/0/1040540_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639198828913200000/reb3/highres/0/1040540_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639198828866930000/reb3/highres/0/1040540_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639198828886970000/reb3/highres/0/1040540_5.jpg"
+    ],
+    "description": "A character waterfront home overlooking Gonzales Bay. The listing emphasizes land value and potential redevelopment as well as the existing residence. Any development potential needs independent confirmation; it is not a verified entitlement.",
+    "year": 1922.0,
+    "lot": 8276.0,
+    "daysListed": 104.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29909071",
+      "mls": "1040540",
+      "url": "https://www.realtor.ca/real-estate/29909071/157-robertson-st-victoria-fairfield-east",
+      "brokerage": "Fair Realty",
+      "title": "Freehold",
+      "lot": "8276 sqft",
+      "tax": 12471.83,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining nook",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Recreation room",
+          "size": null
+        },
+        {
+          "level": "Other",
+          "name": "Loft",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Fair Realty"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVQQw==",
+      "address": "157 ROBERTSON ST VICTORIA V8S 3X3",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2334000.0,
+      "land": 2098000.0,
+      "buildings": 236000.0,
+      "previousTotal": 2360000.0,
+      "built": 1920.0,
+      "beds": 4.0,
+      "baths": 3.0,
+      "lot": ".191 Acres",
+      "firstFloor": 1363.0,
+      "secondFloor": 747.0,
+      "finishedBasement": 415.0,
+      "pid": "008-143-943",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4104268,
+      "longitude": -123.3310848,
+      "distanceMeters": 422,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1043889",
+    "address": "141 Denison Rd",
+    "area": "Oak Bay",
+    "price": 3600000.0,
+    "beds": 3.0,
+    "baths": 3.0,
+    "sqft": 3996.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Renovated"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639217161349170000/reb3/highres/9/1043889_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639217161349170000/reb3/highres/9/1043889_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639217161349170000/reb3/highres/9/1043889_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639217161349170000/reb3/highres/9/1043889_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639217161349170000/reb3/highres/9/1043889_5.jpg"
+    ],
+    "description": "A Gonzales Hill home with ocean views, an open main floor, and kitchen and flooring updates described as completed in 2022. An office loft and finished lower level provide additional living space.",
+    "year": 1971.0,
+    "lot": 10455.0,
+    "daysListed": 51.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30130026",
+      "mls": "1043889",
+      "url": "https://www.realtor.ca/real-estate/30130026/141-denison-rd-oak-bay-gonzales",
+      "brokerage": "Rennie & Associates Realty Ltd.",
+      "title": "Freehold",
+      "lot": "10455 sqft",
+      "tax": 14812.19,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Office",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Recreation room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Patio",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Rennie & Associates Realty Ltd."
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/RDAwMDBBSk5OTg==",
+      "address": "141 DENISON RD VICTORIA V8S 4K2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2704000.0,
+      "land": 1795000.0,
+      "buildings": 909000.0,
+      "previousTotal": 2595000.0,
+      "built": 1971.0,
+      "beds": 3.0,
+      "baths": 3.0,
+      "lot": "10455 Sq Ft",
+      "firstFloor": 2072.0,
+      "secondFloor": 173.0,
+      "finishedBasement": 1307.0,
+      "pid": "027-928-772",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4109882,
+      "longitude": -123.319399,
+      "distanceMeters": 480,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1049250",
+    "address": "1821 Hollywood Cres",
+    "area": "Fairfield",
+    "price": 2975000.0,
+    "beds": 4.0,
+    "baths": 2.0,
+    "sqft": 2744.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Suite"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639246447430170000/reb3/highres/0/1049250_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447430170000/reb3/highres/0/1049250_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447430170000/reb3/highres/0/1049250_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447430170000/reb3/highres/0/1049250_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447430170000/reb3/highres/0/1049250_5.jpg"
+    ],
+    "description": "A character home on Hollywood Crescent with ocean and mountain views, a sunroom, gardens, and beach access. The layout includes a loft and a separate one-bedroom suite. Listing and assessment records disagree on the construction year.",
+    "year": 1921.0,
+    "lot": 7360.0,
+    "daysListed": 17.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30260097",
+      "mls": "1049250",
+      "url": "https://www.realtor.ca/real-estate/30260097/1821-hollywood-cres-victoria-fairfield-east",
+      "brokerage": "The Agency",
+      "title": "Freehold",
+      "lot": "7360 sqft",
+      "tax": 17053.39,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Other",
+          "size": "15 ft x 14 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": "12 ft x 7 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Sunroom",
+          "size": "16 ft x 8 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": "25 ft x 20 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": "13 ft x 11 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": "13 ft x 11 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": "13 ft x 16 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": "4-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": "12 ft x 16 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": "6 ft x 5 ft"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "10 ft x 11 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": "42 ft x 6 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Patio",
+          "size": "25 ft x 8 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": "7 ft x 10 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": "3-Piece"
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": "8 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Eating area",
+          "size": "8 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Living room",
+          "size": "16 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Entrance",
+          "size": "5 ft x 5 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": "17 ft x 10 ft"
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVRNA==",
+      "address": "1821 HOLLYWOOD CRES VICTORIA V8S 1J2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2993000.0,
+      "land": 2486000.0,
+      "buildings": 507000.0,
+      "previousTotal": 3023000.0,
+      "built": 1922.0,
+      "beds": 4.0,
+      "baths": 2.0,
+      "lot": "7360 Sq Ft",
+      "firstFloor": 1584.0,
+      "secondFloor": 240.0,
+      "finishedBasement": 882.0,
+      "pid": "001-149-172",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4087824,
+      "longitude": -123.3306111,
+      "distanceMeters": 492,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1050593",
+    "address": "30 Beach Dr",
+    "area": "Oak Bay",
+    "price": 3549000.0,
+    "beds": 4.0,
+    "baths": 3.0,
+    "sqft": 2372.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Garden",
+      "Two lots"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639258036683530000/reb3/highres/3/1050593_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639258036682300000/reb3/highres/3/1050593_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639258036682470000/reb3/highres/3/1050593_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639258036682300000/reb3/highres/3/1050593_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639258036682800000/reb3/highres/3/1050593_5.jpg"
+    ],
+    "description": "The asking price includes both 30 and 40 Beach Drive: adjoining lots with a 1927 character home and established gardens. The assessment displayed here covers 30 Beach Drive only, so a price-to-assessment percentage is not shown.",
+    "year": 1927.0,
+    "lot": 23958.000000000004,
+    "daysListed": 4.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30318538",
+      "mls": "1050593",
+      "url": "https://www.realtor.ca/real-estate/30318538/30-beach-dr-oak-bay-gonzales",
+      "brokerage": "Macdonald Realty Victoria",
+      "title": "Freehold",
+      "lot": "0.55 ac",
+      "tax": 17805.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Mud room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Office",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Macdonald Realty Victoria"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUThBMA==",
+      "address": "30 BEACH DR VICTORIA V8S 2L2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 1707000.0,
+      "land": 1422000.0,
+      "buildings": 285000.0,
+      "previousTotal": 1682000.0,
+      "built": 1927.0,
+      "beds": 4.0,
+      "baths": 2.0,
+      "lot": "68 x 159 Ft",
+      "firstFloor": 1463.0,
+      "secondFloor": 763.0,
+      "finishedBasement": null,
+      "pid": "006-263-496",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": false
+    },
+    "location": {
+      "latitude": 48.4155878,
+      "longitude": -123.3222545,
+      "distanceMeters": 492,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": [
+      "Package price includes 30 and 40 Beach Drive. The assessment below covers only 30 Beach Drive; it is not a like-for-like price comparison."
+    ]
+  },
+  {
+    "id": "mls-1038898",
+    "address": "374 Sunset Ave",
+    "area": "Oak Bay",
+    "price": 4949900.0,
+    "beds": 5.0,
+    "baths": 7.0,
+    "sqft": 5789.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Elevator"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639160055787430000/reb3/highres/8/1038898_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639160055787430000/reb3/highres/8/1038898_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639160055787430000/reb3/highres/8/1038898_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639160055787430000/reb3/highres/8/1038898_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639160055787430000/reb3/highres/8/1038898_5.jpg"
+    ],
+    "description": "A custom South Oak Bay home with ocean views, an elevator, theatre, and outdoor entertaining areas. The listing describes premium kitchen appliances, heat pumps, radiant heating, a sport court, and a hot tub.",
+    "year": 2021.0,
+    "lot": 10920.0,
+    "daysListed": 117.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29840928",
+      "mls": "1038898",
+      "url": "https://www.realtor.ca/real-estate/29840928/374-sunset-ave-oak-bay-south-oak-bay",
+      "brokerage": "Engel & Volkers Vancouver Island",
+      "title": "Freehold",
+      "lot": "10920 sqft",
+      "tax": 18631.05,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Pantry",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Office",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Media",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Gym",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Other",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Other",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Other",
+          "name": "Patio",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Engel & Volkers Vancouver Island"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUTZRWA==",
+      "address": "374 SUNSET AVE VICTORIA V8S 4L2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 3566000.0,
+      "land": 1503000.0,
+      "buildings": 2063000.0,
+      "previousTotal": 3446000.0,
+      "built": 2020.0,
+      "beds": 6.0,
+      "baths": 7.0,
+      "lot": "91 x 120 Ft",
+      "firstFloor": 2426.0,
+      "secondFloor": 1661.0,
+      "finishedBasement": 1540.0,
+      "pid": "007-925-468",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4123475,
+      "longitude": -123.3189443,
+      "distanceMeters": 507,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1049252",
+    "address": "121 Denison Rd",
+    "area": "Oak Bay",
+    "price": 6995000.0,
+    "beds": 4.0,
+    "baths": 7.0,
+    "sqft": 5055.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Pool"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639246447428270000/reb3/highres/2/1049252_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447428270000/reb3/highres/2/1049252_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447428270000/reb3/highres/2/1049252_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447428270000/reb3/highres/2/1049252_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639246447428270000/reb3/highres/2/1049252_5.jpg"
+    ],
+    "description": "An extensively redesigned hilltop home with broad ocean views, a pool, and indoor wellness spaces. The listing describes home automation, a wine cellar, expansive decks, and a quiet cul-de-sac setting.",
+    "year": 1978.0,
+    "lot": 16640.0,
+    "daysListed": 17.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30260096",
+      "mls": "1049252",
+      "url": "https://www.realtor.ca/real-estate/30260096/121-denison-rd-oak-bay-gonzales",
+      "brokerage": "The Agency",
+      "title": "Freehold",
+      "lot": "16640 sqft",
+      "tax": 34953.25,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Pantry",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Wine Cellar",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Workshop",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Sauna",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Gym",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUE4Rg==",
+      "address": "121 DENISON RD VICTORIA V8S 4K2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 5165000.0,
+      "land": 2423000.0,
+      "buildings": 2742000.0,
+      "previousTotal": 3301000.0,
+      "built": 1978.0,
+      "beds": 4.0,
+      "baths": 7.0,
+      "lot": "16640 Sq Ft",
+      "firstFloor": 2643.0,
+      "secondFloor": null,
+      "finishedBasement": 2431.0,
+      "pid": "003-227-502",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4107286,
+      "longitude": -123.3187662,
+      "distanceMeters": 531,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1044958",
+    "address": "2179 Crescent Rd",
+    "area": "Oak Bay",
+    "price": 3199000.0,
+    "beds": 4.0,
+    "baths": 4.0,
+    "sqft": 3710.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Ocean view"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639215296326300000/reb3/highres/8/1044958_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639215296326300000/reb3/highres/8/1044958_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639215296326300000/reb3/highres/8/1044958_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639215296326300000/reb3/highres/8/1044958_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639215296326300000/reb3/highres/8/1044958_5.jpg"
+    ],
+    "description": "An oceanfront home at the end of a cul-de-sac with wide coastal views. An open main level, upstairs primary suite, and walk-out lower floor support several living areas. The listing describes a zinc exterior and generous decking.",
+    "year": 1992.0,
+    "lot": 7634.0,
+    "daysListed": 54.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30116411",
+      "mls": "1044958",
+      "url": "https://www.realtor.ca/real-estate/30116411/2179-crescent-rd-oak-bay-gonzales",
+      "brokerage": "The Agency",
+      "title": "Freehold",
+      "lot": "7634 sqft",
+      "tax": 24698.19,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Den",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Great room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Den",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Family room",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUFETA==",
+      "address": "2179 CRESCENT RD VICTORIA V8S 2H4",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 4083000.0,
+      "land": 2866000.0,
+      "buildings": 1217000.0,
+      "previousTotal": 3776000.0,
+      "built": 1992.0,
+      "beds": 4.0,
+      "baths": 3.0,
+      "lot": ".175 Acres",
+      "firstFloor": 1195.0,
+      "secondFloor": 1219.0,
+      "finishedBasement": 1097.0,
+      "pid": "000-364-665",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4069473,
+      "longitude": -123.3240114,
+      "distanceMeters": 558,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1036618",
+    "address": "376 King George Terr",
+    "area": "Oak Bay",
+    "price": 2688000.0,
+    "beds": 4.0,
+    "baths": 4.0,
+    "sqft": 3427.0,
+    "style": "Modern",
+    "type": "House",
+    "tags": [
+      "Suite",
+      "Ocean view"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639154910490900000/reb3/highres/8/1036618_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639154910490900000/reb3/highres/8/1036618_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639154910490870000/reb3/highres/8/1036618_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639154910494470000/reb3/highres/8/1036618_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639154910502070000/reb3/highres/8/1036618_5.jpg"
+    ],
+    "description": "A renovated home with views across McNeill Bay. Its flexible layout includes a two-bedroom in-law suite, an upper-level kitchen and living area, and a private top-floor primary suite. Detached garage parking is also described.",
+    "year": 1958.0,
+    "lot": 6360.0,
+    "daysListed": 130.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29782546",
+      "mls": "1036618",
+      "url": "https://www.realtor.ca/real-estate/29782546/376-king-george-terr-oak-bay-gonzales",
+      "brokerage": "The Agency",
+      "title": "Freehold",
+      "lot": "6360 sqft",
+      "tax": 13727.0,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Eating area",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Additional Accommodation",
+          "name": "Kitchen",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUTZSOA==",
+      "address": "376 KING GEORGE TERR VICTORIA V8S 2K3",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2463000.0,
+      "land": 1226000.0,
+      "buildings": 1237000.0,
+      "previousTotal": 2399000.0,
+      "built": 1958.0,
+      "beds": 4.0,
+      "baths": 4.0,
+      "lot": "53 x 120 Ft",
+      "firstFloor": 1317.0,
+      "secondFloor": 720.0,
+      "finishedBasement": 1389.0,
+      "pid": "000-571-644",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4117833,
+      "longitude": -123.318032,
+      "distanceMeters": 571,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1046351",
+    "address": "237 Wildwood Ave",
+    "area": "Fairfield",
+    "price": 1320000.0,
+    "beds": 3.0,
+    "baths": 2.0,
+    "sqft": 1573.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Garden",
+      "Near beach"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639238795672900000/reb3/highres/1/1046351_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639238795673070000/reb3/highres/1/1046351_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639238795672970000/reb3/highres/1/1046351_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639238795637900000/reb3/highres/1/1046351_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639238795672930000/reb3/highres/1/1046351_5.jpg"
+    ],
+    "description": "A cottage-style Fairfield home close to the waterfront, with a fireplace, a loft-style primary suite, and an adjoining flexible room. The dining room opens to a south-facing patio and a fenced garden.",
+    "year": 1940.0,
+    "lot": 5000.0,
+    "daysListed": 45.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30154295",
+      "mls": "1046351",
+      "url": "https://www.realtor.ca/real-estate/30154295/237-wildwood-ave-victoria-fairfield-east",
+      "brokerage": "Oakwyn Realty Ltd.",
+      "title": "Freehold",
+      "lot": "5000 sqft",
+      "tax": 6725.67,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Hobby room",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Oakwyn Realty Ltd."
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBITkVHVw==",
+      "address": "237 WILDWOOD AVE VICTORIA V8S 3W2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 1182000.0,
+      "land": 986000.0,
+      "buildings": 196000.0,
+      "previousTotal": 1137000.0,
+      "built": 1940.0,
+      "beds": 3.0,
+      "baths": 2.0,
+      "lot": "50 x 100 Ft",
+      "firstFloor": 993.0,
+      "secondFloor": 285.0,
+      "finishedBasement": null,
+      "pid": "004-729-382",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4119952,
+      "longitude": -123.3335592,
+      "distanceMeters": 575,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1049488",
+    "address": "335 King George Terr",
+    "area": "Oak Bay",
+    "price": 2288000.0,
+    "beds": 3.0,
+    "baths": 3.0,
+    "sqft": 2955.0,
+    "style": "Coastal",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Strata"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639247411716330000/reb3/highres/8/1049488_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639247411733100000/reb3/highres/8/1049488_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639247411716370000/reb3/highres/8/1049488_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639247411716400000/reb3/highres/8/1049488_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639247411716470000/reb3/highres/8/1049488_5.jpg"
+    ],
+    "description": "A strata-titled house on a cul-de-sac with ocean views, several patios, and a double garage. The main floor includes the primary suite; the upper level adds two bedrooms and a media room.",
+    "year": 1989.0,
+    "lot": 6728.0,
+    "daysListed": 16.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30268169",
+      "mls": "1049488",
+      "url": "https://www.realtor.ca/real-estate/30268169/335-king-george-terr-oak-bay-gonzales",
+      "brokerage": "The Agency",
+      "title": "Strata",
+      "lot": "6728 sqft",
+      "tax": 12681.29,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Eating area",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Media",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Entrance",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / The Agency"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUI3RA==",
+      "address": "335 KING GEORGE TERR VICTORIA V8S 2J8",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2315000.0,
+      "land": 1604000.0,
+      "buildings": 711000.0,
+      "previousTotal": 2267000.0,
+      "built": 1989.0,
+      "beds": 3.0,
+      "baths": 3.0,
+      "lot": "6728 Sq Ft",
+      "firstFloor": 1884.0,
+      "secondFloor": 1008.0,
+      "finishedBasement": null,
+      "pid": "013-119-095",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4107029,
+      "longitude": -123.3181068,
+      "distanceMeters": 579,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1050158",
+    "address": "515 Foul Bay Rd",
+    "area": "Fairfield",
+    "price": 4000000.0,
+    "beds": 11.0,
+    "baths": 9.0,
+    "sqft": 8313.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Heritage",
+      "Multiple residences"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639253578801630000/reb3/highres/8/1050158_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639253578792630000/reb3/highres/8/1050158_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639253578792200000/reb3/highres/8/1050158_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639253578771770000/reb3/highres/8/1050158_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639253578787830000/reb3/highres/8/1050158_5.jpg"
+    ],
+    "description": "Tracksell Manor is a 1910 heritage house being restored into eight residences. The listing targets early 2027 completion. This is a multi-residence project, and the asking price reflects the proposed work; confirm unit configuration and completion terms.",
+    "year": 1910.0,
+    "lot": 10979.0,
+    "daysListed": 9.0,
+    "source": "realtor",
+    "listing": {
+      "id": "30301945",
+      "mls": "1050158",
+      "url": "https://www.realtor.ca/real-estate/30301945/515-foul-bay-rd-victoria-fairfield-east",
+      "brokerage": "Engel & Volkers Vancouver Island",
+      "title": "Freehold",
+      "lot": "10979 sqft",
+      "tax": 12997.26,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Porch",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Patio",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Porch",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bedroom",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Engel & Volkers Vancouver Island"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/SjAwMDAwRDQ5Wg==",
+      "address": "515 FOUL BAY RD VICTORIA V8S 4G9",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2298000.0,
+      "land": 1397000.0,
+      "buildings": 901000.0,
+      "previousTotal": null,
+      "built": 1910.0,
+      "beds": 11.0,
+      "baths": null,
+      "lot": ".252 Acres",
+      "firstFloor": 3129.0,
+      "secondFloor": 2475.0,
+      "finishedBasement": 772.0,
+      "pid": "032-514-450",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4170157,
+      "longitude": -123.3266525,
+      "distanceMeters": 581,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": [
+      "Multi-residence restoration project; completion and configuration are listing claims."
+    ]
+  },
+  {
+    "id": "mls-1040312",
+    "address": "250 King George Terr",
+    "area": "Oak Bay",
+    "price": 2490000.0,
+    "beds": 4.0,
+    "baths": 5.0,
+    "sqft": 3869.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Ocean view",
+      "Large lot"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639177211233930000/reb3/highres/2/1040312_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639177211234200000/reb3/highres/2/1040312_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639177211234000000/reb3/highres/2/1040312_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639177211199400000/reb3/highres/2/1040312_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639177211233970000/reb3/highres/2/1040312_5.jpg"
+    ],
+    "description": "A European-influenced character home above Gonzales Bay with a central hall, winding staircase, and a large sunny lot. The listing proposes possible infill potential, which requires independent confirmation.",
+    "year": 1936.0,
+    "lot": 20553.0,
+    "daysListed": 104.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29904622",
+      "mls": "1040312",
+      "url": "https://www.realtor.ca/real-estate/29904622/250-king-george-terr-oak-bay-gonzales",
+      "brokerage": "RE/MAX Camosun",
+      "title": "Freehold",
+      "lot": "20553 sqft",
+      "tax": 13857.66,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Patio",
+          "size": "22 ft x 10 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": "2-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Family room",
+          "size": "14 ft x 19 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Eating area",
+          "size": "7 ft x 7 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": "16 ft x 15 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": "18 ft x 11 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Great room",
+          "size": "18 ft x 12 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": "16 ft x 25 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Ensuite",
+          "size": "4-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": "13 ft x 15 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Den",
+          "size": "13 ft x 11 ft"
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": "2-Piece"
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": "7 ft x 7 ft"
+        },
+        {
+          "level": "Second level",
+          "name": "Balcony",
+          "size": "3 ft x 23 ft"
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": "4-Piece"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "16 ft x 15 ft"
+        },
+        {
+          "level": "Second level",
+          "name": "Bedroom",
+          "size": "13 ft x 13 ft"
+        },
+        {
+          "level": "Second level",
+          "name": "Ensuite",
+          "size": "5-Piece"
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": "16 ft x 15 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Workshop",
+          "size": "13 ft x 9 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Utility room",
+          "size": "10 ft x 11 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": "12 ft x 6 ft"
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": "11 ft x 11 ft"
+        }
+      ],
+      "photoCredit": "REALTOR.ca / RE/MAX Camosun"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUFDVw==",
+      "address": "250 KING GEORGE TERR VICTORIA V8S 2K2",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2669000.0,
+      "land": 2021000.0,
+      "buildings": 648000.0,
+      "previousTotal": 2692000.0,
+      "built": 1936.0,
+      "beds": 5.0,
+      "baths": 6.0,
+      "lot": "20553 Sq Ft",
+      "firstFloor": 2401.0,
+      "secondFloor": 1949.0,
+      "finishedBasement": null,
+      "pid": "000-330-868",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4092607,
+      "longitude": -123.3188494,
+      "distanceMeters": 585,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  },
+  {
+    "id": "mls-1033136",
+    "address": "309 King George Terr",
+    "area": "Oak Bay",
+    "price": 3650000.0,
+    "beds": 2.0,
+    "baths": 3.0,
+    "sqft": 2130.0,
+    "style": "Character",
+    "type": "House",
+    "tags": [
+      "Waterfront",
+      "Garden"
+    ],
+    "photos": [
+      "https://cdn.realtor.ca/listings/TS639178152973000000/reb3/highres/6/1033136_1.jpg",
+      "https://cdn.realtor.ca/listings/TS639178152973030000/reb3/highres/6/1033136_2.jpg",
+      "https://cdn.realtor.ca/listings/TS639178152974770000/reb3/highres/6/1033136_3.jpg",
+      "https://cdn.realtor.ca/listings/TS639178152936930000/reb3/highres/6/1033136_4.jpg",
+      "https://cdn.realtor.ca/listings/TS639178152935830000/reb3/highres/6/1033136_5.jpg"
+    ],
+    "description": "A seaside character cottage overlooking Gonzales Bay with large ocean-facing windows and tiered gardens leading toward the water. The listing highlights original built-ins, privacy, and the coastal setting.",
+    "year": 1931.0,
+    "lot": 8700.0,
+    "daysListed": 152.0,
+    "source": "realtor",
+    "listing": {
+      "id": "29672112",
+      "mls": "1033136",
+      "url": "https://www.realtor.ca/real-estate/29672112/309-king-george-terr-oak-bay-gonzales",
+      "brokerage": "Engel & Volkers Vancouver Island",
+      "title": "Freehold",
+      "lot": "8700 sqft",
+      "tax": 10341.27,
+      "taxYear": null,
+      "observedAt": "2026-09-28",
+      "rooms": [
+        {
+          "level": "Main level",
+          "name": "Balcony",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bedroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Dining room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Living room",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Kitchen",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Main level",
+          "name": "Entrance",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Second level",
+          "name": "Primary Bedroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Bathroom",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Laundry room",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Other",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Storage",
+          "size": null
+        },
+        {
+          "level": "Lower level",
+          "name": "Office",
+          "size": null
+        }
+      ],
+      "photoCredit": "REALTOR.ca / Engel & Volkers Vancouver Island"
+    },
+    "assessment": {
+      "url": "https://www.bcassessment.ca/Property/Info/QTAwMDBIUUE5Qg==",
+      "address": "309 KING GEORGE TERR VICTORIA V8S 2J8",
+      "year": 2026,
+      "valuationDate": "2025-07-01",
+      "total": 2169000.0,
+      "land": 2068000.0,
+      "buildings": 101000.0,
+      "previousTotal": 2008900.0,
+      "built": 1931.0,
+      "beds": 2.0,
+      "baths": 3.0,
+      "lot": ".197 Acres",
+      "firstFloor": 1076.0,
+      "secondFloor": 434.0,
+      "finishedBasement": 135.0,
+      "pid": "002-915-278",
+      "sales": [],
+      "salesCoverage": "Last 3 full calendar years, as displayed by BC Assessment",
+      "comparable": true
+    },
+    "location": {
+      "latitude": 48.4102203,
+      "longitude": -123.3175676,
+      "distanceMeters": 631,
+      "precision": "CIVIC_NUMBER",
+      "score": 100
+    },
+    "notes": []
+  }
+]
