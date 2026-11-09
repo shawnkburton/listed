@@ -4,6 +4,8 @@ Seller listing management, private conversations and showing requests are implem
 
 # Listed Marketplace MVP
 
+Development uses GitHub; the intended host is the user's T470 server at lic.nut.run. See the [GitHub and hosting workflow](deploy/WORKFLOW.md) for release status, deployment steps and private-data backups.
+
 A working first vertical slice of Listed: a social property feed with explainable personalization, deliberate discovery, and transparent engagement. Built with Next.js, React, and TypeScript from the existing [Listed prototype](https://github.com/shawnkburton/listed).
 
 ## Run
