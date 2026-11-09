@@ -11,5 +11,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Project workflow
 
 - Use https://github.com/shawnkburton/listed as the source of truth for future application changes. Keep changes on a branch and in a pull request with validation recorded.
-- The user's intended host is their T470 server, serving lic.nut.run. Confirm whether it is the existing hosting machine before changing deployment infrastructure.
+- The user's intended host is their T470 server, serving lic.nut.run. The user confirmed it is a different machine from the current host; SSH details are pending. Plan a migration that preserves live data.
 - Follow deploy/WORKFLOW.md. Keep runtime databases, seller uploads, private messages, credentials and backups out of GitHub. Source control does not replace a server-data backup.

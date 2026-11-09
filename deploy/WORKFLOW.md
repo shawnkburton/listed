@@ -6,7 +6,7 @@ User preference recorded November 9, 2026: maintain Listed in [GitHub](https://g
 
 The prepared marketplace source is in [draft PR #1](https://github.com/shawnkburton/listed/pull/1), branch `codex/lic-marketplace-source-20261109`; it has not been merged into `main`. The original GitHub homepage files were preserved. This is a saved source snapshot, not a verified copy of every current live-server file.
 
-The existing deployment is documented in [CURRENT-DEPLOYMENT.md](CURRENT-DEPLOYMENT.md). Whether the T470 is that same machine is awaiting confirmation. Recording this workflow does not move or alter the live site.
+The existing deployment is documented in [CURRENT-DEPLOYMENT.md](CURRENT-DEPLOYMENT.md). The user confirmed that the T470 is a different machine; SSH connection details are pending. Migration must preserve the current server's live data. Recording this workflow does not move or alter the live site.
 
 ## Changes and releases
 
