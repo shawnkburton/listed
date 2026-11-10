@@ -5,7 +5,10 @@ import type {Map as MapLibreMap} from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {googleMapsBrowserKey, loadGoogleMapsLibrary} from '@/lib/google-maps-client';
 
-type Phase = 'loading' | 'flying' | 'circling' | 'manual' | 'unavailable';
+type Phase = 'loading' | 'flying' | 'circling' | 'paused' | 'manual' | 'unavailable';
+type AnimationPhase = 'flying' | 'circling';
+const flightDuration = 9000;
+const orbitDuration = 40000;
 
 export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}: {
   latitude: number;
@@ -17,6 +20,8 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
   const linkInput = useRef<HTMLInputElement>(null);
   const replay = useRef<() => void>(() => {});
   const takeControl = useRef<() => void>(() => {});
+  const pause = useRef<() => void>(() => {});
+  const play = useRef<() => void>(() => {});
   const [phase, setPhase] = useState<Phase>('loading');
   const [useSatellite, setUseSatellite] = useState(!googleMapsBrowserKey);
   const [imageryError, setImageryError] = useState(false);
@@ -28,7 +33,10 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
     const controller = new AbortController();
     const {signal} = controller;
     let map: google.maps.maps3d.Map3DElement | undefined;
-    let animation: 'flight' | 'orbit' | undefined;
+    let active: {phase: AnimationPhase; duration: number; started: number} | undefined;
+    let paused: {phase: AnimationPhase; duration: number} | undefined;
+    let stopPending = Promise.resolve();
+    let orbitEnd: ReturnType<typeof setTimeout> | undefined;
 
     const fallback = () => {
       if (signal.aborted) return;
@@ -36,12 +44,11 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       setUseSatellite(true);
     };
     const loadingTimer = setTimeout(fallback, 18000);
-    const runCameraCommand = (command: () => void) => {
+    const runCameraCommand = (command: () => void) =>
       // Maps can reject camera commands asynchronously after the scene loads.
-      void Promise.resolve().then(() => {
+      Promise.resolve().then(() => {
         if (!signal.aborted) return command();
       }).catch(fallback);
-    };
 
     void loadGoogleMapsLibrary('maps3d').then(({Map3DElement, Marker3DElement}) => {
       if (signal.aborted) return;
@@ -49,7 +56,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       const center = {lat: latitude, lng: longitude};
       const destination = {
         center: {...center, altitude: 5},
-        range: 100,
+        range: 90,
         tilt: 63,
         heading: 340,
         altitudeMode: 'RELATIVE_TO_GROUND',
@@ -63,34 +70,76 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       globe.style.cssText = 'display:block;width:100%;height:100%';
       globe.append(new Marker3DElement({position: center, altitudeMode: 'CLAMP_TO_GROUND'}));
 
+      const stop = () => {
+        active = undefined;
+        clearTimeout(orbitEnd);
+        stopPending = runCameraCommand(() => globe.stopCameraAnimation());
+      };
+      const animate = (phase: AnimationPhase, duration: number) => {
+        const segment = {phase, duration, started: performance.now()};
+        active = segment;
+        setPhase(phase);
+        void runCameraCommand(() => {
+          if (active !== segment) return;
+          if (phase === 'flying') {
+            return globe.flyCameraTo({endCamera: destination, durationMillis: duration});
+          }
+          const camera = {...destination, heading: globe.heading ?? destination.heading};
+          return globe.flyCameraAround({camera, durationMillis: orbitDuration, repeatCount: 1});
+        }).then(() => {
+          if (active !== segment || signal.aborted) return;
+          segment.started = performance.now();
+          if (phase === 'circling' && duration < orbitDuration) {
+            // Google orbits in full turns. Stop the resumed turn after its remaining time.
+            orbitEnd = setTimeout(() => {
+              stop();
+              setPhase('manual');
+            }, duration);
+          }
+        });
+      };
+      pause.current = () => {
+        if (!active) return;
+        paused = {phase: active.phase, duration: Math.max(1, active.duration - (performance.now() - active.started))};
+        stop();
+        setPhase('paused');
+      };
+      play.current = () => {
+        const segment = paused;
+        if (!segment) return;
+        void stopPending.then(() => {
+          if (paused !== segment || signal.aborted) return;
+          paused = undefined;
+          animate(segment.phase, segment.duration);
+        });
+      };
       takeControl.current = () => {
-        if (!animation) return;
-        animation = undefined;
-        runCameraCommand(() => globe.stopCameraAnimation());
+        if (!active && !paused) return;
+        paused = undefined;
+        if (active) stop();
         setPhase('manual');
       };
       for (const type of ['pointerdown', 'wheel', 'keydown']) {
         globe.addEventListener(type, () => takeControl.current(), {signal, capture: true, passive: true});
       }
-
       replay.current = () => {
-        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          runCameraCommand(() => globe.flyCameraTo({endCamera: destination, durationMillis: 0}));
-          setPhase('manual');
-          return;
-        }
-        Object.assign(globe, overview);
-        animation = 'flight';
-        setPhase('flying');
-        runCameraCommand(() => globe.flyCameraTo({endCamera: destination, durationMillis: 9000}));
+        void stopPending.then(() => {
+          if (signal.aborted || active) return;
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            void runCameraCommand(() => globe.flyCameraTo({endCamera: destination, durationMillis: 0}));
+            setPhase('manual');
+            return;
+          }
+          Object.assign(globe, overview);
+          animate('flying', flightDuration);
+        });
       };
       globe.addEventListener('gmp-animationend', () => {
-        if (animation === 'flight') {
-          animation = 'orbit';
-          setPhase('circling');
-          runCameraCommand(() => globe.flyCameraAround({camera: destination, durationMillis: 40000, repeatCount: 1}));
-        } else if (animation === 'orbit') {
-          animation = undefined;
+        if (active?.phase === 'flying') {
+          animate('circling', orbitDuration);
+        } else if (active?.phase === 'circling') {
+          active = undefined;
+          clearTimeout(orbitEnd);
           setPhase('manual');
         }
       }, {signal});
@@ -109,6 +158,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
     return () => {
       controller.abort();
       clearTimeout(loadingTimer);
+      clearTimeout(orbitEnd);
       map?.remove();
     };
   }, [latitude, longitude, useSatellite]);
@@ -118,9 +168,11 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
     let disposed = false;
     let map: MapLibreMap | undefined;
     let frame = 0;
-    let flying = false;
+    let flightEndsAt: number | undefined;
+    let pausedFlight: number | undefined;
+    let pausedOrbit = false;
     const stop = () => {
-      flying = false;
+      flightEndsAt = undefined;
       cancelAnimationFrame(frame);
       frame = 0;
       map?.stop();
@@ -153,8 +205,45 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       satellite.addControl(new NavigationControl(), 'top-right');
       satellite.on('error', () => { if (!disposed) setImageryError(true); });
 
+      const orbit = () => {
+        setPhase('circling');
+        const start = performance.now();
+        const bearing = satellite.getBearing();
+        const rotate = (now: number) => {
+          satellite.setBearing(bearing + (now - start) * 0.0072);
+          frame = requestAnimationFrame(rotate);
+        };
+        frame = requestAnimationFrame(rotate);
+      };
+      const fly = (duration: number) => {
+        flightEndsAt = performance.now() + duration;
+        setPhase('flying');
+        satellite.once('moveend', () => {
+          if (flightEndsAt === undefined) return;
+          flightEndsAt = undefined;
+          orbit();
+        });
+        satellite.flyTo({...destination, duration});
+      };
+      pause.current = () => {
+        if (flightEndsAt === undefined && !frame) return;
+        pausedFlight = flightEndsAt === undefined ? undefined : Math.max(1, flightEndsAt - performance.now());
+        pausedOrbit = Boolean(frame);
+        stop();
+        setPhase('paused');
+      };
+      play.current = () => {
+        const duration = pausedFlight;
+        const circling = pausedOrbit;
+        pausedFlight = undefined;
+        pausedOrbit = false;
+        if (duration !== undefined) fly(duration);
+        else if (circling) orbit();
+      };
       takeControl.current = () => {
-        if (!flying && !frame) return;
+        if (flightEndsAt === undefined && !frame && pausedFlight === undefined && !pausedOrbit) return;
+        pausedFlight = undefined;
+        pausedOrbit = false;
         stop();
         setPhase('manual');
       };
@@ -171,21 +260,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
           return;
         }
         satellite.jumpTo(overview);
-        flying = true;
-        setPhase('flying');
-        satellite.once('moveend', () => {
-          if (!flying) return;
-          flying = false;
-          setPhase('circling');
-          const start = performance.now();
-          const bearing = satellite.getBearing();
-          const orbit = (now: number) => {
-            satellite.setBearing(bearing + (now - start) * 0.0072);
-            frame = requestAnimationFrame(orbit);
-          };
-          frame = requestAnimationFrame(orbit);
-        });
-        satellite.flyTo({...destination, duration: 9000});
+        fly(flightDuration);
       };
       // Start as soon as the camera is available, even if a tile is slow or fails.
       replay.current();
@@ -210,12 +285,15 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
     }
   }
 
+  const playing = phase === 'flying' || phase === 'circling';
+
   return <section className="dialog-body">
     <div ref={container} className="flyover-map" aria-label={useSatellite ? 'Interactive satellite map' : 'Interactive Google 3D map'} hidden={phase === 'unavailable'}/>
     <p role="status" className="subtle">
       {phase === 'loading' && (useSatellite ? 'Loading satellite map…' : 'Loading Google 3D map…')}
       {phase === 'flying' && 'Flying in…'}
       {phase === 'circling' && 'Circling the property. Interact with the map to take control.'}
+      {phase === 'paused' && 'Flyover paused.'}
       {phase === 'manual' && 'Drag, scroll or pinch to explore.'}
       {phase === 'unavailable' && 'The satellite map could not open in this browser.'}
     </p>
@@ -225,7 +303,12 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
     <label className="share-label">Flyover link<input ref={linkInput} readOnly value={shareUrl} onFocus={event => event.currentTarget.select()}/></label>
     <div className="form-actions">
       <button className="secondary" onClick={onBack}>Back to listing</button>
-      {(phase === 'flying' || phase === 'circling') && <button className="secondary" onClick={() => takeControl.current()}>Take control</button>}
+      {(playing || phase === 'paused') && <>
+        <button className="secondary" onClick={() => playing ? pause.current() : play.current()}>
+          {playing ? 'Pause' : 'Play'}
+        </button>
+        <button className="secondary" onClick={() => takeControl.current()}>Take control</button>
+      </>}
       {phase === 'manual' && <button className="secondary" onClick={() => replay.current()}>Replay flight</button>}
       <button className="primary" onClick={() => void copyLink()}>{copied ? 'Link copied' : 'Copy Flyover link'}</button>
     </div>
