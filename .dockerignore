@@ -1,0 +1,16 @@
+node_modules
+.next
+.git
+.data
+.env*
+!.env.example
+*.sqlite*
+*.tsbuildinfo
+docs
+tests
+legacy
+supabase
+work
+backups
+deployment-bundles
+*.tar.gz
