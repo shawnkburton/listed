@@ -49,7 +49,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       const center = {lat: latitude, lng: longitude};
       const destination = {
         center: {...center, altitude: 5},
-        range: 220,
+        range: 100,
         tilt: 63,
         heading: 340,
         altitudeMode: 'RELATIVE_TO_GROUND',
