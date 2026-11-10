@@ -3,6 +3,7 @@
 import {useEffect, useRef, useState} from 'react';
 import type {Map as MapLibreMap} from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import {googleMapsBrowserKey, loadGoogleMapsLibrary} from '@/lib/google-maps-client';
 
 type Phase = 'loading' | 'flying' | 'circling' | 'manual' | 'unavailable';
 
@@ -17,10 +18,91 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
   const replay = useRef<() => void>(() => {});
   const takeControl = useRef<() => void>(() => {});
   const [phase, setPhase] = useState<Phase>('loading');
+  const [useSatellite, setUseSatellite] = useState(!googleMapsBrowserKey);
   const [imageryError, setImageryError] = useState(false);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
+    const element = container.current;
+    if (useSatellite || !element) return;
+    const controller = new AbortController();
+    const {signal} = controller;
+    let map: google.maps.maps3d.Map3DElement | undefined;
+    let animation: 'flight' | 'orbit' | undefined;
+
+    const fallback = () => {
+      if (signal.aborted) return;
+      setPhase('loading');
+      setUseSatellite(true);
+    };
+    const loadingTimer = setTimeout(fallback, 18000);
+
+    void loadGoogleMapsLibrary('maps3d').then(({Map3DElement, Marker3DElement}) => {
+      if (signal.aborted) return;
+      const overview = {center: {lat: 48.44, lng: -123.35}, range: 11500, tilt: 20, heading: 0};
+      const center = {lat: latitude, lng: longitude};
+      const destination = {center, range: 220, tilt: 63, heading: 340, altitudeMode: 'CLAMP_TO_GROUND'} as const;
+      const globe = new Map3DElement({
+        ...overview,
+        mode: 'SATELLITE',
+        description: 'Photorealistic 3D property flyover',
+      });
+      map = globe;
+      globe.style.cssText = 'display:block;width:100%;height:100%';
+      globe.append(new Marker3DElement({position: center, altitudeMode: 'CLAMP_TO_GROUND'}));
+
+      takeControl.current = () => {
+        if (!animation) return;
+        animation = undefined;
+        globe.stopCameraAnimation();
+        setPhase('manual');
+      };
+      for (const type of ['pointerdown', 'wheel', 'keydown']) {
+        globe.addEventListener(type, () => takeControl.current(), {signal, capture: true, passive: true});
+      }
+
+      replay.current = () => {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          globe.flyCameraTo({endCamera: destination, durationMillis: 0});
+          setPhase('manual');
+          return;
+        }
+        Object.assign(globe, overview);
+        animation = 'flight';
+        setPhase('flying');
+        globe.flyCameraTo({endCamera: destination, durationMillis: 9000});
+      };
+      globe.addEventListener('gmp-animationend', () => {
+        if (animation === 'flight') {
+          animation = 'orbit';
+          setPhase('circling');
+          globe.flyCameraAround({camera: destination, durationMillis: 40000, repeatCount: 1});
+        } else if (animation === 'orbit') {
+          animation = undefined;
+          setPhase('manual');
+        }
+      }, {signal});
+
+      globe.addEventListener('gmp-error', fallback, {signal});
+      const start = (event: google.maps.maps3d.SteadyChangeEvent) => {
+        if (!event.isSteady) return;
+        globe.removeEventListener('gmp-steadychange', start);
+        clearTimeout(loadingTimer);
+        replay.current();
+      };
+      globe.addEventListener('gmp-steadychange', start, {signal});
+      element.append(globe);
+    }).catch(fallback);
+
+    return () => {
+      controller.abort();
+      clearTimeout(loadingTimer);
+      map?.remove();
+    };
+  }, [latitude, longitude, useSatellite]);
+
+  useEffect(() => {
+    if (!useSatellite) return;
     let disposed = false;
     let map: MapLibreMap | undefined;
     let frame = 0;
@@ -102,7 +184,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       stop();
       map?.remove();
     };
-  }, [latitude, longitude]);
+  }, [latitude, longitude, useSatellite]);
 
   async function copyLink() {
     try {
@@ -117,14 +199,16 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
   }
 
   return <section className="dialog-body">
-    <div ref={container} className="flyover-map" aria-label="Interactive satellite map" hidden={phase === 'unavailable'}/>
+    <div ref={container} className="flyover-map" aria-label={useSatellite ? 'Interactive satellite map' : 'Interactive Google 3D map'} hidden={phase === 'unavailable'}/>
     <p role="status" className="subtle">
-      {phase === 'loading' && 'Loading satellite map…'}
+      {phase === 'loading' && (useSatellite ? 'Loading satellite map…' : 'Loading Google 3D map…')}
       {phase === 'flying' && 'Flying in…'}
       {phase === 'circling' && 'Circling the property. Interact with the map to take control.'}
       {phase === 'manual' && 'Drag, scroll or pinch to explore.'}
       {phase === 'unavailable' && 'The satellite map could not open in this browser.'}
     </p>
+    {googleMapsBrowserKey && useSatellite && phase !== 'unavailable' &&
+      <p className="subtle">Google 3D could not load. Showing the satellite flyover.</p>}
     {imageryError && <p className="map-warning">Some satellite imagery could not load.</p>}
     <label className="share-label">Flyover link<input ref={linkInput} readOnly value={shareUrl} onFocus={event => event.currentTarget.select()}/></label>
     <div className="form-actions">
