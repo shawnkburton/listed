@@ -36,12 +36,24 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       setUseSatellite(true);
     };
     const loadingTimer = setTimeout(fallback, 18000);
+    const runCameraCommand = (command: () => void) => {
+      // Maps can reject camera commands asynchronously after the scene loads.
+      void Promise.resolve().then(() => {
+        if (!signal.aborted) return command();
+      }).catch(fallback);
+    };
 
     void loadGoogleMapsLibrary('maps3d').then(({Map3DElement, Marker3DElement}) => {
       if (signal.aborted) return;
       const overview = {center: {lat: 48.44, lng: -123.35}, range: 11500, tilt: 20, heading: 0};
       const center = {lat: latitude, lng: longitude};
-      const destination = {center, range: 220, tilt: 63, heading: 340, altitudeMode: 'CLAMP_TO_GROUND'} as const;
+      const destination = {
+        center: {...center, altitude: 5},
+        range: 220,
+        tilt: 63,
+        heading: 340,
+        altitudeMode: 'RELATIVE_TO_GROUND',
+      } as const;
       const globe = new Map3DElement({
         ...overview,
         mode: 'SATELLITE',
@@ -54,7 +66,7 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
       takeControl.current = () => {
         if (!animation) return;
         animation = undefined;
-        globe.stopCameraAnimation();
+        runCameraCommand(() => globe.stopCameraAnimation());
         setPhase('manual');
       };
       for (const type of ['pointerdown', 'wheel', 'keydown']) {
@@ -63,20 +75,20 @@ export default function PropertyFlyover({latitude, longitude, shareUrl, onBack}:
 
       replay.current = () => {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          globe.flyCameraTo({endCamera: destination, durationMillis: 0});
+          runCameraCommand(() => globe.flyCameraTo({endCamera: destination, durationMillis: 0}));
           setPhase('manual');
           return;
         }
         Object.assign(globe, overview);
         animation = 'flight';
         setPhase('flying');
-        globe.flyCameraTo({endCamera: destination, durationMillis: 9000});
+        runCameraCommand(() => globe.flyCameraTo({endCamera: destination, durationMillis: 9000}));
       };
       globe.addEventListener('gmp-animationend', () => {
         if (animation === 'flight') {
           animation = 'orbit';
           setPhase('circling');
-          globe.flyCameraAround({camera: destination, durationMillis: 40000, repeatCount: 1});
+          runCameraCommand(() => globe.flyCameraAround({camera: destination, durationMillis: 40000, repeatCount: 1}));
         } else if (animation === 'orbit') {
           animation = undefined;
           setPhase('manual');
