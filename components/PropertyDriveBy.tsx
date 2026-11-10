@@ -1,26 +1,12 @@
-/// <reference types="google.maps" />
-
 'use client';
 
 import {useEffect, useRef, useState} from 'react';
 import {findStreetViewApproach, headingTo, type StreetViewStop} from '@/lib/street-view-route';
 import {distanceMeters} from '@/lib/geography';
 
-export const streetViewKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY?.trim();
+import {googleMapsBrowserKey, loadGoogleMapsLibrary} from '@/lib/google-maps-client';
 
 type Playback = 'loading' | 'ready' | 'playing' | 'manual' | 'finished' | 'no-route' | 'unavailable';
-let streetViewLibrary: Promise<google.maps.StreetViewLibrary> | undefined;
-
-function loadStreetView(key: string) {
-  streetViewLibrary ??= import('@googlemaps/js-api-loader').then(({setOptions, importLibrary}) => {
-    setOptions({key, v: 'quarterly', authReferrerPolicy: 'origin'});
-    return importLibrary('streetView');
-  }).catch(error => {
-    streetViewLibrary = undefined;
-    throw error;
-  });
-  return streetViewLibrary;
-}
 
 function readStop(data: google.maps.StreetViewPanoramaData): StreetViewStop | undefined {
   const location = data.location;
@@ -54,7 +40,7 @@ export default function PropertyDriveBy({latitude, longitude, appleUrl, onBack}:
   const [length, setLength] = useState(0);
 
   useEffect(() => {
-    if (!streetViewKey || !container.current) return;
+    if (!googleMapsBrowserKey || !container.current) return;
     const element = container.current;
     const controller = new AbortController();
     let panorama: google.maps.StreetViewPanorama | undefined;
@@ -82,7 +68,7 @@ export default function PropertyDriveBy({latitude, longitude, appleUrl, onBack}:
       setPhase('unavailable');
     }, 25000);
 
-    void loadStreetView(streetViewKey).then(async ({StreetViewService, StreetViewPanorama, StreetViewPreference, StreetViewSource}) => {
+    void loadGoogleMapsLibrary('streetView').then(async ({StreetViewService, StreetViewPanorama, StreetViewPreference, StreetViewSource}) => {
       controller.signal.throwIfAborted();
       const service = new StreetViewService();
       const house = {latitude, longitude};
